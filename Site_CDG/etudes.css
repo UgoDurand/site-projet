@@ -1,0 +1,21 @@
+h2
+{
+    text-align: center;
+    color: white;
+    font-size: 40
+}
+body
+{
+    background-color: #673AB7;
+    text-align: center;
+}p
+{
+    text-align: rigth;
+    color: white;
+    font-size : 25
+
+}
+.under
+{
+    text-decoration: underline;
+}

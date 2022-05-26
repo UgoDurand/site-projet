@@ -1,0 +1,229 @@
+@font-face {
+	font-family :"Miama";
+	src: url("font.otf") format("opentype");
+}
+
+
+
+
+header {
+	border-style:solid;
+	display: flex;
+	border-color: silver;
+	background-image:url("https://static8.depositphotos.com/1008280/813/i/600/depositphotos_8139182-stock-photo-flower.jpg");
+	border-radius: 30px;
+}
+
+#nom{
+	margin-right:auto;
+	margin-left:30px;
+	font-size:50px;
+	font-family:Miama;
+	color:white;
+	font-weight:bold;
+	text-decoration:underline;
+	text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black; 
+}
+ul#liste li {
+		outline:none;
+		font-size:10px;
+		letter-spacing:1.2px;
+		font-weight:600;
+		display:inline-block;
+		font-size: 30px;
+		line-height:5;
+		margin-left:30px;
+		margin-right:40px;
+
+}
+
+ul#liste li a{
+	text-decoration:none;
+	color:black;
+}
+
+
+.image{
+	width:35px;
+	height:35px;
+	border-style:solid;
+	padding-bottom: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 5px;
+}
+
+body {
+	background-image: url("https://image.freepik.com/vecteurs-libre/fond-couches-papier-fonce-details-dores_23-2148387727.jpg");
+}
+
+
+
+.txt {
+	border-color:silver;
+	background-image:url("https://static8.depositphotos.com/1008280/813/i/600/depositphotos_8139182-stock-photo-flower.jpg");
+	border-style:solid;
+	display: flex;
+	border-radius: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	justify-content:center;
+	margin-left:40px;
+	margin-right:40px;
+	font-family:URW Chancery L, cursive;
+	font-size: 20px;
+
+	
+}
+
+.planing {
+	border-style:solid;
+	border-color:white;
+	display: inline-block;
+	background-image:url("https://static8.depositphotos.com/1008280/813/i/600/depositphotos_8139182-stock-photo-flower.jpg");
+	border-radius: 30px;
+	padding-top: 40px;
+	padding-left:150px;
+	padding-right:150px;
+	padding-bottom: 40px;
+	justify-content:center;
+	margin-left:40px;
+	margin-right:40px;
+	font-family:URW Chancery L, cursive;
+	font-size: 25px;
+
+	
+}
+
+.plan {
+	border-style: solid;
+	border-radius: 30px;
+	height:300px;
+	border-color:black;
+}
+
+.menu {
+	border-style: solid;
+	border-radius: 30px;
+	border-color:black;
+}
+
+#mariage{
+	border-style: solid;
+	border-radius: 30px;
+	border-color:white;
+}
+.mairie{
+		border-style: solid;
+		border-radius: 30px;
+		border-color:silver;
+		
+}
+.photos{
+		justify-content:center;
+		border-style: solid;
+		border-radius: 30px;
+		border-color:silver;
+		height:400px;
+		
+}
+#jour{  display:inline;
+		float:left;
+		justify-content:flex-end;
+		border-style: solid;
+		border-radius: 30px;
+		border-color:silver;
+		height:400px;
+		
+		
+}
+#nuit{  display:inline;
+		float:right;
+		border-style: solid;
+		border-radius: 30px;
+		border-color:silver;
+height:400px;}
+		
+.salle{
+		border-style: solid;
+		border-radius: 30px;
+		border-color:black;
+		height: 500px;
+		margin-left: 30px;
+		border-color:silver;
+}
+
+#soirée{display:inline;
+}
+
+#copy {
+	border-style:solid;
+	border-color:silver;
+	display: flex;
+	background-image:url("https://static8.depositphotos.com/1008280/813/i/600/depositphotos_8139182-stock-photo-flower.jpg");
+	border-radius: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	justify-content:center;
+	margin-left:40px;
+	margin-right:40px;
+	font-family:URW Chancery L, cursive;
+	font-size: 20px;
+	padding: 10px 10px 10px 10px; 
+	bottom: 0;
+	left: 0;
+	width: 100%; 
+	height: 40px; 
+	font-style:italic;
+}
+#sephora {
+	border-style: solid;
+	border-radius: 30px;
+	width:35px;
+	height:35px;
+	
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+	font-size: 20px;
+	
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+
+#quest {
+	border-style:solid;
+	border-color: silver;
+	display: block;
+	background-image:url("https://static8.depositphotos.com/1008280/813/i/600/depositphotos_8139182-stock-photo-flower.jpg");
+	border-radius: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	justify-content:center;
+	text-align:flex-end;
+	margin-left:300px;
+	margin-right:300px;
+	font-family:URW Chancery L, cursive;
+	font-size: 20px;
+}
+
+#merci {
+		height: 500px;
+		margin-left: 30px;
+}
+
+.menu{
+		border-style: solid;
+		border-radius: 30px;
+		border-color:black;
+		height: 1000px;
+		margin-left: 30px;
+		border-color:silver;
+display:inline;}
+}

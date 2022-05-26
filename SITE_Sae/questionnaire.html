@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+       
+       <head>
+		<meta charset="utf-8">
+		<title>Accueil</title>
+			<link rel="stylesheet" href="style.css">
+	</head>
+       
+       <body>
+			<header>
+				<p id="nom">❤❤ Dana & Leela's Weeding ❤❤</p>
+					<nav>
+						<ul id="liste">
+							<li><a href="bienvenue.html" class="onglet"> <img class="image" src="https://cdn-icons-png.flaticon.com/512/25/25694.png">Accueil </a></li>
+							<li><a href="lieu.html" class="onglet"><img class="image" src="https://cdn.icon-icons.com/icons2/1364/PNG/512/maplocalization_89142.png"> Lieu</a></li>
+							<li><a href="menu.html" class="onglet"><img class="image" src="https://image.flaticon.com/icons/png/512/33/33059.png"> Menu</a></li>
+							<li><a href="planning.html" class="onglet"><img class="image" src="https://cdn-icons-png.flaticon.com/512/42/42253.png"> Planning</a></li>
+							<li><a href="questionnaire.html" class="onglet"><img class="image" src="https://image.flaticon.com/icons/png/512/70/70547.png"> Questionnaire</a></li>
+						</ul>
+					</nav>
+			</header>
+			<p class="txt">Chèrs invités, voici un petit questionnaire à remplir concernant tous les petits détails concernant notre mariage. Merci de le remplir ^^. Dana & Leela ❤</p>
+			<ol id="quest">
+				<li> Comment vous appelez vous ?</li>
+				</br>
+				<label for="Name">Saisissez votre nom et votre prénom :</label>
+				<input type="text" id="name" name="name" required size="30">
+				</br>
+				</br>	
+				<li>Un baby-sitter sera présent sur place pour s'occuper des enfants, souhaitez vous réserver une place ?
+				<ul> 
+					<li>Oui</li>
+					<li> Non</li>
+					</br>
+				</ul>
+				</li>
+				<label for="bb">Saisissez la réponse :</label>
+				<input type="text" id="bb" name="bb" required minlength="3" maxlength="3" size="20">
+				
+				</br>
+				</br>
+				<li>4 types de menu seront disponibles, lequel vous convient le plus ?
+				<ul> 
+					<li>Menu Végétarien</li>
+					<li>Menu Viande</li>
+					<li>Menu Poisson</li>
+					<li>Menu Enfant</li>
+					
+					</br>
+				</ul>
+				</li>
+				<label for="menu">Saisissez la réponse :</label>
+				<input type="text" id="menu" name="menu" required size="50">
+								</br>
+				</br>
+				<li>Une équipe de tournage vidéo sera présente pour réaliser un "vlog" (vidéo) souvenir pour vous, les mariées et la communauté youtube de Dana @theonlydana, autorisez vous la diffusion de votre visage ou souhaitez vous qu'il soit flouté ?
+				<ul> 
+					<li>Visage flouté</li>
+					<li>Visage découvert</li>
+					
+					</br>
+				</ul>
+				</li>
+				<label for="vlog">Saisissez la réponse :</label>
+				<input type="text" id="vlog" name="vlog" required size="50">
+				</br>
+				</br>
+				<center>
+				<a href=merci.html><button>Envoyer le Formulaire</button></a>
+				</center>
+				
+				
+				
+			</ol>
+			
+			
+			
+			
+			
+			
+			
+			
+			<p id="copy"> Ugo Durand Corporation | Projet pour Leela Patel et Dana Ribati Ambassadrice Sephora    .<img id="sephora" src="data:image/png;base64,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">| © Copyrigth</p>
